@@ -13,11 +13,11 @@ class demo implements Consumer<Integer>
 
 public class inter4 {
     public static void main(String[] args){
-    List<Integer> l= Arrays.asList(1,3,5,7,9);
+    List<Integer> data= Arrays.asList(1,3,5,7,9);
     Consumer<Integer> obj=new demo();
     //Consumer<Integer> obj=(i-> System.out.println(i));
     //l.forEach(i-> System.out.println(i)); when add this one delete the 18th line
-    l.forEach(obj);
+    data.forEach(obj);
 }
 }
 
